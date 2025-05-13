@@ -3,15 +3,28 @@ display: flex ;
 border: solid white 1px
 }  */
 #body{
-  text-align: center;
-  border-style: solid;
+  width: 450px;
+    height: 380px;
+    margin: 50px auto;
+    font-size: 13px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+  
 }
 button{
-  background-color: #34A853;
-  color:white ;
-  border-radius: green 4px;
-  padding-right: 10px;
-  margin-right: 8px;
+  background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 input{
   border-style: solid;
